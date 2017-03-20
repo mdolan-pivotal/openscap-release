@@ -1,0 +1,2 @@
+30 01 * * * test -x /var/vcap/jobs/openscap/bin/openscap_scan.sh && /var/vcap/jobs/openscap/bin/openscap_scan.sh | logger -t openscap -p security.alert --stderr >>/var/vcap/sys/log/openscap/clamscan.log 2>&1
+

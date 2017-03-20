@@ -1,0 +1,23 @@
+# abort script on any command that exits with a non zero value
+set -e
+
+set -u # report the usage of uninitialized variables
+
+mkdir -p /var/vcap/packages/openscap
+# Available variables
+# $BOSH_COMPILE_TARGET - where this package & spec'd source files are available
+# $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
+export HOME=/var/vcap
+export OPENSCAP_HOME=/var/vcap/packages/openscap
+export COMPILE_HOME=`pwd`
+
+#tar xvzf openscap/virus_defs.tgz -C $OPENSCAP_HOME
+
+tar xvzf openscap/openscap-*.tar.gz
+cd openscap-*
+#./autogen.sh
+./configure --prefix $OPENSCAP_HOME --disable-python --disable-util-oscap-docker
+make -j4
+checkinstall make install # specify version 1.2.14
+
+cd $COMPILE_HOME
