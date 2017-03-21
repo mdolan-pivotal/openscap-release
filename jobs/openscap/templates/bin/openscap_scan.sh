@@ -5,8 +5,8 @@
 LOG_FILE="/var/vcap/sys/log/openscap/openscap-scan.log"
 HTML_FILE="/var/vcap/sys/log/openscap/results.html"
 XML_RESULTS="/var/vcap/sys/log/openscap/report.xml"
-SSG_FILE="/var/vcap/jobs/scap/ssg/ssg-ubuntu1404-xccdf.xml"
-CPE_FILE="/usr/local/share/scap/ssg/ssg-ubuntu1404-cpe-dictionary.xml"
+SSG_FILE="/var/vcap/packages/scap/ssg/ssg-ubuntu1404-xccdf.xml"
+CPE_FILE="/var/vcap/packages/scap/ssg/ssg-ubuntu1404-cpe-dictionary.xml"
 PROFILE="common"
 
 

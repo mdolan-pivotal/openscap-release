@@ -1,0 +1,240 @@
+libopenscap8
+  Depends: libapt-pkg4.12 (>= 0.8.16~exp9)
+  Depends: libc6 (>= 2.15)
+  Depends: libcap2 (>= 2.10)
+  Depends: libcurl3 (>= 7.16.2)
+  Depends: libgcc1 (>= 1:4.1.1)
+  Depends: libgcrypt11 (>= 1.5.1)
+  Depends: libldap-2.4-2 (>= 2.4.7)
+  Depends: libpcre3
+  Depends: libselinux1 (>= 1.32)
+  Depends: libstdc++6 (>= 4.1.1)
+  Depends: libxml2 (>= 2.7.4)
+  Depends: libxslt1.1 (>= 1.1.25)
+  PreDepends: multiarch-support
+libapt-pkg4.12
+  Depends: libbz2-1.0
+  Depends: libc6 (>= 2.15)
+  Depends: libgcc1 (>= 1:4.1.1)
+  Depends: liblzma5 (>= 5.1.1alpha+20120614)
+  Depends: libstdc++6 (>= 4.6)
+  Depends: zlib1g (>= 1:1.2.2.3)
+  PreDepends: multiarch-support
+libbz2-1.0
+  Depends: libc6 (>= 2.4)
+  PreDepends: multiarch-support
+libc6
+  Depends: libgcc1
+libgcc1
+  Depends: gcc-4.9-base (= 4.9-20140406-0ubuntu1)
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+gcc-4.9-base
+multiarch-support
+  Depends: libc6 (>= 2.3.6-2)
+liblzma5
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libstdc++6
+  Depends: gcc-4.8-base (= 4.8.2-19ubuntu1)
+  Depends: libc6 (>= 2.17)
+  Depends: libgcc1 (>= 1:4.1.1)
+  PreDepends: multiarch-support
+gcc-4.8-base
+zlib1g
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libcap2
+  Depends: libc6 (>= 2.8)
+  PreDepends: multiarch-support
+libcurl3
+  Depends: libc6 (>= 2.17)
+  Depends: libgssapi-krb5-2 (>= 1.10+dfsg~)
+  Depends: libidn11 (>= 1.13)
+  Depends: libldap-2.4-2 (>= 2.4.7)
+  Depends: librtmp0 (>= 2.3)
+  Depends: libssl1.0.0 (>= 1.0.1)
+  Depends: zlib1g (>= 1:1.1.4)
+  PreDepends: multiarch-support
+libgssapi-krb5-2
+  Depends: libc6 (>= 2.14)
+  Depends: libcomerr2 (>= 1.34)
+  Depends: libk5crypto3 (>= 1.8+dfsg)
+  Depends: libkrb5-3 (= 1.12+dfsg-2ubuntu4)
+  Depends: libkrb5support0 (>= 1.12~alpha1+dfsg)
+  PreDepends: multiarch-support
+libcomerr2
+  Depends: libc6 (>= 2.17)
+  PreDepends: multiarch-support
+libk5crypto3
+  Depends: libc6 (>= 2.14)
+  Depends: libkrb5support0 (>= 1.12~alpha1+dfsg)
+  PreDepends: multiarch-support
+libkrb5support0
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libkrb5-3
+  Depends: libc6 (>= 2.16)
+  Depends: libcomerr2 (>= 1.34)
+  Depends: libk5crypto3 (>= 1.9+dfsg~beta1)
+  Depends: libkeyutils1
+  Depends: libkrb5support0 (= 1.12+dfsg-2ubuntu4)
+  PreDepends: multiarch-support
+libkeyutils1
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libidn11
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libldap-2.4-2
+  Depends: libc6 (>= 2.14)
+  Depends: libgcrypt11 (>= 1.5.1)
+  Depends: libgnutls26 (>= 2.12.17-0)
+  Depends: libgssapi3-heimdal (>= 1.4.0+git20110226)
+  Depends: libsasl2-2 (>= 2.1.24)
+  PreDepends: multiarch-support
+libgcrypt11
+  Depends: libc6 (>= 2.15)
+  Depends: libgpg-error0 (>= 1.10)
+  PreDepends: multiarch-support
+libgpg-error0
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libgnutls26
+  Depends: libc6 (>= 2.14)
+  Depends: libgcrypt11 (>= 1.5.1)
+  Depends: libp11-kit0 (>= 0.11)
+  Depends: libtasn1-6 (>= 3.4-0)
+  Depends: zlib1g (>= 1:1.1.4)
+  PreDepends: multiarch-support
+libp11-kit0
+  Depends: libc6 (>= 2.16)
+  Depends: libffi6 (>= 3.0.4)
+  PreDepends: multiarch-support
+libffi6
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libtasn1-6
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libgssapi3-heimdal
+  Depends: libasn1-8-heimdal (>= 1.4.0+git20110226)
+  Depends: libc6 (>= 2.14)
+  Depends: libcomerr2 (>= 1.01)
+  Depends: libhcrypto4-heimdal (>= 1.4.0+git20110226)
+  Depends: libheimntlm0-heimdal (>= 1.4.0+git20110226)
+  Depends: libkrb5-26-heimdal (>= 1.6~git20131117)
+  Depends: libroken18-heimdal (>= 1.4.0+git20110226)
+  PreDepends: multiarch-support
+libasn1-8-heimdal
+  Depends: libc6 (>= 2.14)
+  Depends: libcomerr2 (>= 1.01)
+  Depends: libroken18-heimdal (>= 1.4.0+git20110226)
+  PreDepends: multiarch-support
+libroken18-heimdal
+  Depends: libc6 (>= 2.15)
+  PreDepends: multiarch-support
+libhcrypto4-heimdal
+  Depends: libasn1-8-heimdal (>= 1.4.0+git20110226)
+  Depends: libc6 (>= 2.14)
+  Depends: libroken18-heimdal (>= 1.4.0+git20110226)
+  PreDepends: multiarch-support
+libheimntlm0-heimdal
+  Depends: libc6 (>= 2.4)
+  Depends: libhcrypto4-heimdal (>= 1.4.0+git20110226)
+  Depends: libkrb5-26-heimdal (>= 1.4.0+git20110226)
+  Depends: libroken18-heimdal (>= 1.4.0+git20110226)
+  PreDepends: multiarch-support
+libkrb5-26-heimdal
+  Depends: libasn1-8-heimdal (>= 1.6~git20131117)
+  Depends: libc6 (>= 2.15)
+  Depends: libcomerr2 (>= 1.41.11)
+  Depends: libhcrypto4-heimdal (>= 1.4.0+git20110226)
+  Depends: libheimbase1-heimdal (>= 1.6~git20131117)
+  Depends: libhx509-5-heimdal (>= 1.4.0+git20110226)
+  Depends: libroken18-heimdal (>= 1.6~git20131117)
+  Depends: libsqlite3-0 (>= 3.5.9)
+  Depends: libwind0-heimdal (>= 1.6~git20120311)
+  PreDepends: multiarch-support
+libheimbase1-heimdal
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libhx509-5-heimdal
+  Depends: libasn1-8-heimdal (>= 1.4.0+git20110226)
+  Depends: libc6 (>= 2.14)
+  Depends: libcomerr2 (>= 1.34)
+  Depends: libhcrypto4-heimdal (>= 1.4.0+git20110226)
+  Depends: libheimbase1-heimdal (>= 1.6~git20131117)
+  Depends: libroken18-heimdal (>= 1.4.0+git20110226)
+  Depends: libwind0-heimdal (>= 1.4.0+git20110226)
+  PreDepends: multiarch-support
+libwind0-heimdal
+  Depends: libc6 (>= 2.14)
+  Depends: libcomerr2 (>= 1.01)
+  Depends: libroken18-heimdal (>= 1.4.0+git20110226)
+  PreDepends: multiarch-support
+libsqlite3-0
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libsasl2-2
+  Depends: libc6 (>= 2.15)
+  Depends: libsasl2-modules-db (>= 2.1.25.dfsg1-17build1)
+  PreDepends: multiarch-support
+libsasl2-modules-db
+  Depends: libc6 (>= 2.14)
+  Depends: libdb5.3
+libdb5.3
+  Depends: libc6 (>= 2.17)
+  PreDepends: multiarch-support
+librtmp0
+  Depends: libc6 (>= 2.14)
+  Depends: libgcrypt11 (>= 1.4.5)
+  Depends: libgnutls26 (>= 2.12.17-0)
+  Depends: zlib1g (>= 1:1.1.4)
+  PreDepends: multiarch-support
+libssl1.0.0
+  Depends: debconf (>= 0.5)
+  Depends: debconf-2.0
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+debconf
+  PreDepends: perl-base (>= 5.6.1-4)
+perl-base
+  PreDepends: dpkg (>= 1.14.20)
+  PreDepends: libc6 (>= 2.14)
+dpkg
+  PreDepends: libbz2-1.0
+  PreDepends: libc6 (>= 2.14)
+  PreDepends: liblzma5 (>= 5.1.1alpha+20120614)
+  PreDepends: libselinux1 (>= 2.1.0)
+  PreDepends: tar (>= 1.23)
+  PreDepends: zlib1g (>= 1:1.1.4)
+libselinux1
+  Depends: libc6 (>= 2.14)
+  Depends: libpcre3
+  PreDepends: multiarch-support
+libpcre3
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+tar
+  PreDepends: libacl1 (>= 2.2.51-8)
+  PreDepends: libc6 (>= 2.17)
+  PreDepends: libselinux1 (>= 1.32)
+libacl1
+  Depends: libattr1 (>= 1:2.4.46-8)
+  Depends: libc6 (>= 2.14)
+  PreDepends: multiarch-support
+libattr1
+  Depends: libc6 (>= 2.4)
+  PreDepends: multiarch-support
+debconf-2.0
+libxml2
+  Depends: libc6 (>= 2.15)
+  Depends: liblzma5 (>= 5.1.1alpha+20120614)
+  Depends: zlib1g (>= 1:1.2.3.3)
+  PreDepends: multiarch-support
+libxslt1.1
+  Depends: libc6 (>= 2.17)
+  Depends: libgcrypt11 (>= 1.4.5)
+  Depends: libxml2 (>= 2.9.0)
+  PreDepends: multiarch-support

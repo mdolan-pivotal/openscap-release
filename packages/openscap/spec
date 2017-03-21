@@ -4,4 +4,5 @@ name: openscap
 dependencies:
 
 files:
-- openscap-1.2.13.tar.gz
+ - openscap-1.2.14.tar.gz
+ - scap-security-guide-master.zip

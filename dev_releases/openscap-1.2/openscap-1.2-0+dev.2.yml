@@ -1,0 +1,22 @@
+---
+packages:
+- name: openscap
+  version: !binary |-
+    NDRhMWQyMmYxYjVkZDgwMDI4MzAxYjZkNTI2NzlmY2EwOGIzMmM0NA==
+  fingerprint: !binary |-
+    NDRhMWQyMmYxYjVkZDgwMDI4MzAxYjZkNTI2NzlmY2EwOGIzMmM0NA==
+  sha1: !binary |-
+    MTNlYzVlMjJlY2I5NTk4NDdlYzBlODRmYjY1MzA2MGQ2MDMyYzJkOA==
+  dependencies: []
+jobs:
+- name: openscap
+  version: !binary |-
+    NzJlYzk2MTk3ZTQyZjY1MTc5ZTJlYjJmMjZjZTBlNzgyNDQ4YmE0MQ==
+  fingerprint: !binary |-
+    NzJlYzk2MTk3ZTQyZjY1MTc5ZTJlYjJmMjZjZTBlNzgyNDQ4YmE0MQ==
+  sha1: !binary |-
+    NWJlMGRjMjc3MzA2NzhlYzNlMGQ3NTI2N2FlNWY1MDc3ODJhMTJhZA==
+commit_hash: 26c56d49
+uncommitted_changes: true
+name: openscap-1.2
+version: 0+dev.2
