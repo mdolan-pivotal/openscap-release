@@ -1,5 +1,10 @@
 ---
 name: openscap
+package:
+- openscap
 templates:
-
-packages:
+ bin/openscap_ctl.sh : bin/openscap_ctl.sh
+ bin/openscap_scan.sh : bin/openscap_scan.sh
+ conf/openscap_dailyscan.cron.erb : conf/openscap_dailyscan.cron
+ conf/logrotate.conf.erb : conf/logrotate.conf
+ conf/openscap_logrotate.cron.erb : conf/openscap_logrotate.cron

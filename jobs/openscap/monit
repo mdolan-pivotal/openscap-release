@@ -1,0 +1,5 @@
+check process oscap
+  with pidfile /var/vcap/sys/run/openscap/oscap.pid
+  start program "/var/vcap/jobs/openscap/bin/openscap_ctl.sh start_openscap" with timeout 500 seconds
+  stop program "/var/vcap/jobs/openscap/bin/openscap_ctl.sh stop_openscap"
+  group vcap

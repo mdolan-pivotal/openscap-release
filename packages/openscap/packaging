@@ -13,7 +13,8 @@ export COMPILE_HOME=`pwd`
 
 #tar xvzf openscap/virus_defs.tgz -C $OPENSCAP_HOME
 
-tar xvzf openscap/openscap-*.tar.gz
+tar xvzf ../blobs/openscap-*.tar.gz
+tar xvzf ../blobs/scap-security-guide-*.tar.gz
 cd openscap-*
 #./autogen.sh
 ./configure --prefix $OPENSCAP_HOME --disable-python --disable-util-oscap-docker
